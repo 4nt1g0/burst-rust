@@ -1,0 +1,15 @@
+[device]
+platform_id = 1
+device_id = 0
+global_work_size = 8192
+local_work_size = 256
+hashes_number = 8192
+
+[work]
+address = "11433454602339013530"
+passphrase = "PASSPHRASE"
+wallet_url = "WALLET_URL"
+mining_info_interval_seconds = 5
+target_deadline = "15552000000" # 5000 years for testing
+submission_retry_number = 5
+submission_retry_interval_seconds = 5

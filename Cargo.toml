@@ -1,0 +1,24 @@
+[package]
+name = "burst-rust"
+version = "0.1.0"
+authors = ["4nt1g0 <antigo@gittam.de>"]
+build = "build.rs"
+
+[build-dependencies]
+gcc = "0.3.54"
+
+
+[dependencies]
+ocl = "0.17.0"
+hex-slice = "0.1.4"
+num-iter = "0.1.35"
+failure = "0.1.1"
+byteorder = "1.2.1"
+hex = "0.3.1"
+reqwest = "0.8.5"
+serde_json = "1.0.10"
+serde = "1.0.27"
+serde_derive = "1.0.27"
+config = "0.8.0"
+lazy_static = "1.0.0"
+arrayref = "0.3.4"
